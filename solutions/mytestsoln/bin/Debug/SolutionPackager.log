@@ -1,0 +1,68 @@
+2021-10-13 00:32:48.401 - Info	
+Packing /workspaces/PowerPlatformIgnite2021/solutions/mytestsoln/obj/Debug/Metadata to bin/Debug/mytestsoln.zip
+
+2021-10-13 00:32:48.412 - Info	Processing Component: Entities
+2021-10-13 00:32:48.414 - Info	Processing Component: Roles
+2021-10-13 00:32:48.416 - Info	Processing Component: Workflows
+2021-10-13 00:32:48.420 - Info	 - SubmitUserData
+2021-10-13 00:32:48.422 - Info	Processing Component: FieldSecurityProfiles
+2021-10-13 00:32:48.422 - Info	Processing Component: Templates
+2021-10-13 00:32:48.423 - Info	Processing Component: EntityMaps
+2021-10-13 00:32:48.423 - Info	Processing Component: EntityRelationships
+2021-10-13 00:32:48.425 - Info	Processing Component: OrganizationSettings
+2021-10-13 00:32:48.425 - Info	Processing Component: optionsets
+2021-10-13 00:32:48.425 - Info	Processing Component: CustomControls
+2021-10-13 00:32:48.428 - Info	 - tstControl.mytestcontrol
+2021-10-13 00:32:48.429 - Info	Processing Component: AppModuleSiteMaps
+2021-10-13 00:32:48.431 - Info	Processing Component: AppModules
+2021-10-13 00:32:48.433 - Info	Processing Component: EntityDataProviders
+2021-10-13 00:32:48.433 - Info	Processing Component: CanvasApps
+2021-10-13 00:32:48.435 - Info	 - tst_app_e8d09
+2021-10-13 00:32:48.436 - Info	 - tst_myestimatorapp_8a99c
+2021-10-13 00:32:48.437 - Info	 - tst_accountapp_01cb1
+2021-10-13 00:32:48.437 - Info	Processing Component: Connectors
+2021-10-13 00:32:48.437 - Info	 - tst_5Fcreateuserandjob
+2021-10-13 00:32:48.438 - Info	 - new_5Ftoyotalogisticssystem
+2021-10-13 00:32:48.438 - Info	 - new_5Fconfapi5
+2021-10-13 00:32:48.448 - Warning	Following root components are not defined in customizations:
+  Type='Connector', Id (or schema name)='{60377e95-bf05-ec11-94ef-00224826a90b}'.
+  Type='Connector', Id (or schema name)='{16a51a64-7c48-434f-8165-e01dd88867ca}'.
+  Type='Connector', Id (or schema name)='{b8a74948-172c-412d-acfd-fc542d88462d}'.
+
+2021-10-13 00:32:48.484 - Info	
+Unmanaged Pack complete.
+
+2021-10-13 00:49:31.349 - Info	
+Packing /workspaces/PowerPlatformIgnite2021/solutions/mytestsoln/obj/Debug/Metadata to bin/Debug/mytestsoln.zip
+
+2021-10-13 00:49:31.360 - Info	Processing Component: Entities
+2021-10-13 00:49:31.362 - Info	Processing Component: Roles
+2021-10-13 00:49:31.364 - Info	Processing Component: Workflows
+2021-10-13 00:49:31.368 - Info	 - SubmitUserData
+2021-10-13 00:49:31.370 - Info	Processing Component: FieldSecurityProfiles
+2021-10-13 00:49:31.370 - Info	Processing Component: Templates
+2021-10-13 00:49:31.370 - Info	Processing Component: EntityMaps
+2021-10-13 00:49:31.371 - Info	Processing Component: EntityRelationships
+2021-10-13 00:49:31.373 - Info	Processing Component: OrganizationSettings
+2021-10-13 00:49:31.373 - Info	Processing Component: optionsets
+2021-10-13 00:49:31.373 - Info	Processing Component: CustomControls
+2021-10-13 00:49:31.376 - Info	 - tstControl.mytestcontrol
+2021-10-13 00:49:31.377 - Info	Processing Component: AppModuleSiteMaps
+2021-10-13 00:49:31.379 - Info	Processing Component: AppModules
+2021-10-13 00:49:31.381 - Info	Processing Component: EntityDataProviders
+2021-10-13 00:49:31.381 - Info	Processing Component: CanvasApps
+2021-10-13 00:49:31.383 - Info	 - tst_app_e8d09
+2021-10-13 00:49:31.384 - Info	 - tst_myestimatorapp_8a99c
+2021-10-13 00:49:31.385 - Info	 - tst_accountapp_01cb1
+2021-10-13 00:49:31.385 - Info	Processing Component: Connectors
+2021-10-13 00:49:31.385 - Info	 - tst_5Fcreateuserandjob
+2021-10-13 00:49:31.386 - Info	 - new_5Ftoyotalogisticssystem
+2021-10-13 00:49:31.386 - Info	 - new_5Fconfapi5
+2021-10-13 00:49:31.396 - Warning	Following root components are not defined in customizations:
+  Type='Connector', Id (or schema name)='{60377e95-bf05-ec11-94ef-00224826a90b}'.
+  Type='Connector', Id (or schema name)='{16a51a64-7c48-434f-8165-e01dd88867ca}'.
+  Type='Connector', Id (or schema name)='{b8a74948-172c-412d-acfd-fc542d88462d}'.
+
+2021-10-13 00:49:31.432 - Info	
+Unmanaged Pack complete.
+
