@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Connector xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <connectorid>b8a74948-172c-412d-acfd-fc542d88462d</connectorid>
+  <description>Create Name and Job</description>
+  <displayname>CreateUserandJob</displayname>
+  <iconbrandcolor>#007ee5</iconbrandcolor>
+  <name>tst_5Fcreateuserandjob</name>
+  <connectortype>1</connectortype>
+  <openapidefinition>/Connector/tst_5Fcreateuserandjob_openapidefinition.json</openapidefinition>
+  <connectionparameters>/Connector/tst_5Fcreateuserandjob_connectionparameters.json</connectionparameters>
+  <policytemplateinstances>/Connector/tst_5Fcreateuserandjob_policytemplateinstances.json</policytemplateinstances>
+  <iconblob>/Connector/tst_5Fcreateuserandjob_iconblob.Png</iconblob>
+</Connector>

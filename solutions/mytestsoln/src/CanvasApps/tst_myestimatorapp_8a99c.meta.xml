@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CanvasApp xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Name>tst_myestimatorapp_8a99c</Name>
+  <AppVersion>2021-10-09T23:47:23Z</AppVersion>
+  <Status>Ready</Status>
+  <CreatedByClientVersion>3.21093.33.0</CreatedByClientVersion>
+  <MinClientVersion>3.21093.33.0</MinClientVersion>
+  <Tags>{"primaryDeviceWidth":"640","primaryDeviceHeight":"1136","sienaVersion":"20211009T234723Z-3.21093.33.0","deviceCapabilities":"webcam","supportsPortrait":"true","supportsLandscape":"false","primaryFormFactor":"Phone","publisherVersion":"3.21093.33","minimumRequiredApiVersion":"2.2.0","hasComponent":"false","hasUnlockedComponent":"false","isUnifiedRootApp":"false"}</Tags>
+  <IsCdsUpgraded>0</IsCdsUpgraded>
+  <GalleryItemId xsi:nil="true"></GalleryItemId>
+  <BackgroundColor>RGBA(0,176,240,1)</BackgroundColor>
+  <DisplayName>MyEstimatorApp</DisplayName>
+  <Description xsi:nil="true"></Description>
+  <CommitMessage xsi:nil="true"></CommitMessage>
+  <Publisher xsi:nil="true"></Publisher>
+  <AuthorizationReferences>[]</AuthorizationReferences>
+  <ConnectionReferences>{"99b9910c-d9b3-48a8-850e-c43d03776923":{"id":"/providers/microsoft.powerapps/apis/shared_excel","displayName":"Excel","iconUri":"https://connectoricons-prod.azureedge.net/releases/v1.0.1518/1.0.1518.2564/excel/icon.png","dataSources":["Jobs","Filters","Rooms","Floorings","FlooringSummary","Photo"],"dependencies":["900b781c-c957-4bb9-931a-039030d646f5"],"dependents":[],"parameterHints":{"900b781c-c957-4bb9-931a-039030d646f5":{"value":"fileSource"}},"parameterHintsV2":{"fileSource":{"value":"900b781c-c957-4bb9-931a-039030d646f5"}},"isOnPremiseConnection":false,"dataSets":{"b!FKD48SnMwkiQquwCvEhBuFbtK_1Yc6NOiNCn_VBrSz06Qq2xtlVsQ5IFVrJbPN80.01WWEI5KDZLQR7SMAGCJAJYJNANVYRPKFN":{"dataSources":{"Jobs":{"tableName":"Jobs"},"Filters":{"tableName":"Filters"},"Rooms":{"tableName":"Rooms"},"Floorings":{"tableName":"Floorings"},"FlooringSummary":{"tableName":"FlooringSummary"},"Photo":{"tableName":"Photo"}}}},"apiTier":"Standard","actions":["providers/PowerPlatform.Governance/Operations/Read","providers/PowerPlatform.Governance/Operations/Write","providers/PowerPlatform.Governance/Operations/Delete"]},"900b781c-c957-4bb9-931a-039030d646f5":{"id":"/providers/microsoft.powerapps/apis/shared_onedriveforbusiness","displayName":"OneDrive for Business","iconUri":"https://connectoricons-prod.azureedge.net/depfeife/special-train/1.0.1489.2478/onedriveforbusiness/icon.png","dataSources":[],"dependencies":[],"dependents":["99b9910c-d9b3-48a8-850e-c43d03776923"],"parameterHints":{},"parameterHintsV2":{},"isOnPremiseConnection":false,"dataSets":{},"apiTier":"Standard"}}</ConnectionReferences>
+  <DatabaseReferences>{}</DatabaseReferences>
+  <AppComponents>[]</AppComponents>
+  <AppComponentDependencies>[]</AppComponentDependencies>
+  <CanConsumeAppPass>1</CanConsumeAppPass>
+  <CanvasAppType>0</CanvasAppType>
+  <BypassConsent>0</BypassConsent>
+  <AdminControlBypassConsent>0</AdminControlBypassConsent>
+  <EmbeddedApp xsi:nil="true"></EmbeddedApp>
+  <IntroducedVersion>1.0</IntroducedVersion>
+  <CdsDependencies>{"cdsdependencies":[]}</CdsDependencies>
+  <IsCustomizable>1</IsCustomizable>
+  <BackgroundImageUri>/CanvasApps/tst_myestimatorapp_8a99c_BackgroundImageUri</BackgroundImageUri>
+  <DocumentUri>/CanvasApps/tst_myestimatorapp_8a99c_DocumentUri.msapp</DocumentUri>
+</CanvasApp>

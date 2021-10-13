@@ -1,0 +1,13 @@
+<environmentvariabledefinition schemaname="tst_EnvironmentType">
+  <defaultvalue>Dev</defaultvalue>
+  <description default="Variable to hold environment type">
+    <label description="Variable to hold environment type" languagecode="1033" />
+  </description>
+  <displayname default="EnvironmentType">
+    <label description="EnvironmentType" languagecode="1033" />
+  </displayname>
+  <introducedversion>1.0.0.0</introducedversion>
+  <iscustomizable>1</iscustomizable>
+  <isrequired>0</isrequired>
+  <type>100000000</type>
+</environmentvariabledefinition>

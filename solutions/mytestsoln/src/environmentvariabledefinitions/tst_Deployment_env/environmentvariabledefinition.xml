@@ -1,0 +1,13 @@
+<environmentvariabledefinition schemaname="tst_Deployment_env">
+  <defaultvalue>test</defaultvalue>
+  <description default="Variable to capture deployment environment ">
+    <label description="Variable to capture deployment environment " languagecode="1033" />
+  </description>
+  <displayname default="Deployment_env">
+    <label description="Deployment_env" languagecode="1033" />
+  </displayname>
+  <introducedversion>1.0.0.0</introducedversion>
+  <iscustomizable>1</iscustomizable>
+  <isrequired>0</isrequired>
+  <type>100000003</type>
+</environmentvariabledefinition>
