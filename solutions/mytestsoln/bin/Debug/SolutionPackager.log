@@ -66,3 +66,37 @@ Packing /workspaces/PowerPlatformIgnite2021/solutions/mytestsoln/obj/Debug/Metad
 2021-10-13 00:49:31.432 - Info	
 Unmanaged Pack complete.
 
+2021-10-13 16:54:30.917 - Info	
+Packing /workspaces/PowerPlatformIgnite2021/solutions/mytestsoln/obj/Debug/Metadata to bin/Debug/mytestsoln.zip
+
+2021-10-13 16:54:30.928 - Info	Processing Component: Entities
+2021-10-13 16:54:30.930 - Info	Processing Component: Roles
+2021-10-13 16:54:30.933 - Info	Processing Component: Workflows
+2021-10-13 16:54:30.936 - Info	 - SubmitUserData
+2021-10-13 16:54:30.938 - Info	Processing Component: FieldSecurityProfiles
+2021-10-13 16:54:30.938 - Info	Processing Component: Templates
+2021-10-13 16:54:30.939 - Info	Processing Component: EntityMaps
+2021-10-13 16:54:30.939 - Info	Processing Component: EntityRelationships
+2021-10-13 16:54:30.941 - Info	Processing Component: OrganizationSettings
+2021-10-13 16:54:30.942 - Info	Processing Component: optionsets
+2021-10-13 16:54:30.942 - Info	Processing Component: CustomControls
+2021-10-13 16:54:30.945 - Info	 - tstControl.mytestcontrol
+2021-10-13 16:54:30.946 - Info	Processing Component: AppModuleSiteMaps
+2021-10-13 16:54:30.948 - Info	Processing Component: AppModules
+2021-10-13 16:54:30.950 - Info	Processing Component: EntityDataProviders
+2021-10-13 16:54:30.950 - Info	Processing Component: CanvasApps
+2021-10-13 16:54:30.952 - Info	 - tst_app_e8d09
+2021-10-13 16:54:30.953 - Info	 - tst_myestimatorapp_8a99c
+2021-10-13 16:54:30.954 - Info	 - tst_accountapp_01cb1
+2021-10-13 16:54:30.954 - Info	Processing Component: Connectors
+2021-10-13 16:54:30.955 - Info	 - tst_5Fcreateuserandjob
+2021-10-13 16:54:30.955 - Info	 - new_5Ftoyotalogisticssystem
+2021-10-13 16:54:30.956 - Info	 - new_5Fconfapi5
+2021-10-13 16:54:30.966 - Warning	Following root components are not defined in customizations:
+  Type='Connector', Id (or schema name)='{60377e95-bf05-ec11-94ef-00224826a90b}'.
+  Type='Connector', Id (or schema name)='{16a51a64-7c48-434f-8165-e01dd88867ca}'.
+  Type='Connector', Id (or schema name)='{b8a74948-172c-412d-acfd-fc542d88462d}'.
+
+2021-10-13 16:54:31.015 - Info	
+Unmanaged Pack complete.
+
