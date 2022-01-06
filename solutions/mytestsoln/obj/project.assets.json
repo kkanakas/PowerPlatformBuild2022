@@ -14,13 +14,13 @@
           "build/Microsoft.NETFramework.ReferenceAssemblies.net462.targets": {}
         }
       },
-      "Microsoft.PowerApps.MSBuild.Pcf/1.9.8": {
+      "Microsoft.PowerApps.MSBuild.Pcf/1.9.9": {
         "type": "package",
         "build": {
           "build/_._": {}
         }
       },
-      "Microsoft.PowerApps.MSBuild.Solution/1.9.8": {
+      "Microsoft.PowerApps.MSBuild.Solution/1.9.9": {
         "type": "package",
         "build": {
           "build/Microsoft.PowerApps.MSBuild.Solution.props": {},
@@ -385,10 +385,10 @@
         "microsoft.netframework.referenceassemblies.net462.nuspec"
       ]
     },
-    "Microsoft.PowerApps.MSBuild.Pcf/1.9.8": {
-      "sha512": "1rIqcKnsn3js00m4EPlXxg/SVUDwGie2doDApRdnszBzUUdp7p2uHJBZ1JInaYHx63zu9YdLhtFw7RlHrIQabg==",
+    "Microsoft.PowerApps.MSBuild.Pcf/1.9.9": {
+      "sha512": "ioukXAwruJgRTzeE8WHpHBrFoW9MtN1wTlY7tpWyFhyhuJ2/m+CxK9gZ0wtaKWDpNRoOMLss+haUz+E/4fJM1g==",
       "type": "package",
-      "path": "microsoft.powerapps.msbuild.pcf/1.9.8",
+      "path": "microsoft.powerapps.msbuild.pcf/1.9.9",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -396,14 +396,14 @@
         "LICENSE.txt",
         "build/Microsoft.PowerApps.MSBuild.Pcf.props",
         "build/Microsoft.PowerApps.MSBuild.Pcf.targets",
-        "microsoft.powerapps.msbuild.pcf.1.9.8.nupkg.sha512",
+        "microsoft.powerapps.msbuild.pcf.1.9.9.nupkg.sha512",
         "microsoft.powerapps.msbuild.pcf.nuspec"
       ]
     },
-    "Microsoft.PowerApps.MSBuild.Solution/1.9.8": {
-      "sha512": "A6IGJtV9qAvA2Tg+wPhlrMvBr5d3hFBbGuKYGNs80bNup3YNG0TnmQnvIwP5VR9A4j46UaZo0UCZ27ofbQi5bw==",
+    "Microsoft.PowerApps.MSBuild.Solution/1.9.9": {
+      "sha512": "Q4OuYtB4VZgsXrS675bY0sy0QXURTLZttNnN2v9vgOIYjJn9vwhEZ7KtSHuXQfXP1746rqrHN6znA/f8QibbZA==",
       "type": "package",
-      "path": "microsoft.powerapps.msbuild.solution/1.9.8",
+      "path": "microsoft.powerapps.msbuild.solution/1.9.9",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -413,7 +413,7 @@
         "build/Microsoft.PowerApps.MSBuild.Solution.targets",
         "buildMultiTargeting/Microsoft.PowerApps.MSBuild.Solution.props",
         "buildMultiTargeting/Microsoft.PowerApps.MSBuild.Solution.targets",
-        "microsoft.powerapps.msbuild.solution.1.9.8.nupkg.sha512",
+        "microsoft.powerapps.msbuild.solution.1.9.9.nupkg.sha512",
         "microsoft.powerapps.msbuild.solution.nuspec",
         "tasks/net48/CsvHelper.dll",
         "tasks/net48/Microsoft.ApplicationInsights.dll",

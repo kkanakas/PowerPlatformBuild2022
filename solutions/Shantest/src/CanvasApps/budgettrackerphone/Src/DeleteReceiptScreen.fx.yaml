@@ -1,0 +1,93 @@
+DeleteReceiptScreen As screen:
+    Fill: =RGBA(255,255,255,1)
+    Height: =Max(App.Height, App.DesignHeight)
+    LoadingSpinnerColor: =RGBA(0, 51, 102, 1)
+    Width: =Max(App.Width, App.DesignWidth)
+
+    Rectangle13_2 As rectangle:
+        BorderColor: =RGBA(0, 0, 255, 1)
+        DisabledFill: =Rectangle13_2.Fill
+        Fill: =RGBA(0,94,130,1)
+        Height: =1136
+        HoverFill: =Rectangle13_2.Fill
+        PressedFill: =Rectangle13_2.Fill
+        Width: =640
+        ZIndex: =1
+
+    TextBox7_2 As label:
+        Align: =Center
+        BorderColor: =RGBA(0, 0, 0, 1)
+        Color: =RGBA(255, 255, 255, 1)
+        DisabledColor: =ColorFade(RGBA(47, 41, 43, 1), 70%)
+        Height: =134
+        HoverBorderColor: =TextBox7_2.BorderColor
+        HoverColor: =TextBox7_2.Color
+        HoverFill: =TextBox7_2.Fill
+        PressedBorderColor: =TextBox7_2.BorderColor
+        PressedColor: =TextBox7_2.Color
+        PressedFill: =TextBox7_2.Fill
+        Size: =24
+        Text: ="Are you sure you want to delete this receipt?"
+        Width: =560
+        X: =40
+        Y: =353.85714285714215
+        ZIndex: =3
+
+    Button1_9 As button:
+        AutoDisableOnSelect: =false
+        BorderColor: =ColorFade(Button1_9.Fill, -15%)
+        BorderThickness: =0
+        Color: =RGBA(255,255,255,1)
+        DisabledBorderColor: =ColorFade(Button1_9.BorderColor, 70%)
+        DisabledColor: =ColorFade(RGBA(47, 41, 43, 1), 70%)
+        DisabledFill: =ColorFade(RGBA(159, 167, 165, 1), 50%)
+        Fill: =RGBA(6,162,216,.5)
+        FontWeight: =Normal
+        Height: =80
+        HoverBorderColor: =ColorFade(Button1_9.BorderColor, 20%)
+        HoverColor: =Button1_9.Color
+        HoverFill: =Button1_9.Fill
+        OnSelect: =Back()
+        PressedBorderColor: =Button1_9.Fill
+        PressedColor: =Button1_9.Color
+        PressedFill: =Button1_9.Fill
+        RadiusBottomLeft: =0
+        RadiusBottomRight: =0
+        RadiusTopLeft: =0
+        RadiusTopRight: =0
+        Size: =28
+        Text: ="No"
+        Width: =580
+        X: =30
+        Y: =636.4285714285719
+        ZIndex: =4
+
+    Button1_10 As button:
+        AutoDisableOnSelect: =false
+        BorderColor: =ColorFade(Button1_10.Fill, -15%)
+        BorderThickness: =0
+        Color: =RGBA(255,255,255,1)
+        DisabledBorderColor: =ColorFade(Button1_10.BorderColor, 70%)
+        DisabledColor: =ColorFade(RGBA(47, 41, 43, 1), 70%)
+        DisabledFill: =ColorFade(RGBA(159, 167, 165, 1), 50%)
+        Fill: =RGBA(6,162,216,1)
+        FontWeight: =Normal
+        Height: =80
+        HoverBorderColor: =ColorFade(Button1_10.BorderColor, 20%)
+        HoverColor: =Button1_10.Color
+        HoverFill: =Button1_10.Fill
+        OnSelect: =RemoveIf(Receipts,Id=Receiptrecord.Id);Navigate(Receipt_page,ScreenTransition.None)
+        PressedBorderColor: =Button1_10.Fill
+        PressedColor: =Button1_10.Color
+        PressedFill: =Button1_10.Fill
+        RadiusBottomLeft: =0
+        RadiusBottomRight: =0
+        RadiusTopLeft: =0
+        RadiusTopRight: =0
+        Size: =28
+        Text: ="Yes"
+        Width: =580
+        X: =30
+        Y: =526.1428571428577
+        ZIndex: =5
+

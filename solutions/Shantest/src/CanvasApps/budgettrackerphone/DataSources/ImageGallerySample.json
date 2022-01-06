@@ -1,0 +1,17 @@
+[
+  {
+    "Data": "[{\"Image\":\"/ctrllib/gallery/data/imageGallery/SampleImage4.svg\",\"Subtitle\":\"Lorem ipsum\",\"Title\":\"Lorem ipsum - 1\"},{\"Image\":\"/ctrllib/gallery/data/imageGallery/SampleImage3.svg\",\"Subtitle\":\"Lorem ipsum\",\"Title\":\"Lorem ipsum - 2\"},{\"Image\":\"/ctrllib/gallery/data/imageGallery/SampleImage2.svg\",\"Subtitle\":\"Lorem ipsum\",\"Title\":\"Lorem ipsum - 3\"},{\"Image\":\"/ctrllib/gallery/data/imageGallery/SampleImage1.svg\",\"Subtitle\":\"Lorem ipsum\",\"Title\":\"Lorem ipsum - 4\"}]",
+    "IsSampleData": true,
+    "IsWritable": false,
+    "Name": "ImageGallerySample",
+    "OrderedColumnNames": [
+      "Image",
+      "Title",
+      "Subtitle"
+    ],
+    "OriginalName": "ImageGallerySample",
+    "OriginalSchema": "*[Image:i, Subtitle:s, Title:s]",
+    "Schema": "*[Image:i, Subtitle:s, Title:s]",
+    "Type": "StaticDataSourceInfo"
+  }
+]

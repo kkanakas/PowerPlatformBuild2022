@@ -1,0 +1,130 @@
+View_receipt As screen:
+    Height: =Max(App.Height, App.DesignHeight)
+    Width: =Max(App.Width, App.DesignWidth)
+
+    Rectangle1_7 As rectangle:
+        BorderColor: =RGBA(0, 0, 255, 1)
+        DisabledFill: =Rectangle1_7.Fill
+        Fill: =RGBA(6,162,216,1)
+        Height: =90
+        HoverFill: =Rectangle1_7.Fill
+        PressedFill: =Rectangle1_7.Fill
+        Width: =640
+        ZIndex: =1
+
+    TextBox2_6 As label:
+        Align: =Align.Center
+        BorderColor: =RGBA(0, 0, 0, 1)
+        Color: =RGBA(255,255,255,1)
+        DisabledColor: =ColorFade(RGBA(47, 41, 43, 1), 70%)
+        FontWeight: =Lighter
+        Height: =90
+        HoverBorderColor: =TextBox2_6.BorderColor
+        HoverColor: =TextBox2_6.Color
+        HoverFill: =TextBox2_6.Fill
+        PressedBorderColor: =TextBox2_6.BorderColor
+        PressedColor: =TextBox2_6.Color
+        PressedFill: =TextBox2_6.Fill
+        Size: =28
+        Text: ="View receipt"
+        Width: =460
+        X: =90
+        ZIndex: =2
+
+    Group6 As group:
+        Height: =90
+        Width: =90
+        X: =0.550561797752806
+        Y: =0
+        ZIndex: =3
+
+        Rectangle4_8 As rectangle:
+            BorderColor: =RGBA(0, 0, 255, 1)
+            DisabledFill: =Rectangle4_8.Fill
+            Fill: =RGBA(62,96,170,0)
+            Height: =90
+            HoverFill: =Rectangle4_8.Fill
+            OnSelect: =Navigate(Receipt_page,ScreenTransition.None)
+            PressedFill: =Rectangle4_8.Fill
+            Width: =90
+            X: =0.5505617977528061
+            ZIndex: =4
+
+        icon4 As icon.ChevronLeft:
+            BorderColor: =RGBA(0, 0, 0, 1)
+            Color: =RGBA(255, 255, 255, 1)
+            DisabledBorderColor: =RGBA(56, 56, 56, 1)
+            DisabledColor: =RGBA(193, 193, 193, 0.95)
+            DisabledFill: =icon4.Fill
+            Height: =32
+            HoverBorderColor: =ColorFade(icon4.BorderColor, 20%)
+            HoverColor: =ColorFade(icon4.Color, 20%)
+            HoverFill: =icon4.Fill
+            Icon: =Icon.ChevronLeft
+            OnSelect: =Navigate(Receipt_page,ScreenTransition.None)
+            PressedBorderColor: =ColorFade(icon4.BorderColor, -20%)
+            PressedColor: =ColorFade(icon4.Color, -20%)
+            PressedFill: =icon4.Fill
+            Width: =32
+            X: =29.550561797752806
+            Y: =29
+            ZIndex: =5
+
+    Image3 As image:
+        ApplyEXIFOrientation: =false
+        AutoDisableOnSelect: =false
+        BorderColor: =RGBA(0, 0, 0, 1)
+        DisabledBorderColor: =RGBA(159, 167, 165, 1)
+        DisabledFill: =RGBA(193, 193, 193, 0.95)
+        Height: =1046
+        HoverBorderColor: =ColorFade(Image3.BorderColor, 20%)
+        HoverFill: =ColorFade(Image3.Fill, 20%)
+        Image: =Gallery6.Selected.Receiptlist
+        ImagePosition: =ImagePosition.Fill
+        PressedBorderColor: =ColorFade(Image3.BorderColor, -20%)
+        PressedFill: =ColorFade(Image3.Fill, -20%)
+        Width: =640
+        Y: =90
+        ZIndex: =6
+
+    Group4 As group:
+        Height: =88
+        Width: =88
+        X: =552
+        Y: =0
+        ZIndex: =7
+
+        Rectangle6 As rectangle:
+            BorderColor: =RGBA(0, 0, 255, 1)
+            DisabledFill: =Rectangle6.Fill
+            Fill: =RGBA(0,0,0,0)
+            Height: =88
+            HoverFill: =Rectangle6.Fill
+            OnSelect: |-
+                =Navigate(DeleteReceiptScreen,ScreenTransition.None,{Receiptrecord:Receiptrecord})
+            PressedFill: =Rectangle6.Fill
+            Width: =88
+            X: =552
+            ZIndex: =8
+
+        icon10 As icon.Trash:
+            BorderColor: =RGBA(0, 0, 0, 1)
+            Color: =RGBA(255, 255, 255, 1)
+            DisabledBorderColor: =RGBA(56, 56, 56, 1)
+            DisabledColor: =RGBA(193, 193, 193, 0.95)
+            DisabledFill: =icon10.Fill
+            Height: =32
+            HoverBorderColor: =ColorFade(icon10.BorderColor, 20%)
+            HoverColor: =ColorFade(icon10.Color, 20%)
+            HoverFill: =icon10.Fill
+            Icon: =Icon.Trash
+            OnSelect: |-
+                =Navigate(DeleteReceiptScreen,ScreenTransition.None,{Receiptrecord:Receiptrecord})
+            PressedBorderColor: =ColorFade(icon10.BorderColor, -20%)
+            PressedColor: =ColorFade(icon10.Color, -20%)
+            PressedFill: =icon10.Fill
+            Width: =32
+            X: =580
+            Y: =29
+            ZIndex: =9
+

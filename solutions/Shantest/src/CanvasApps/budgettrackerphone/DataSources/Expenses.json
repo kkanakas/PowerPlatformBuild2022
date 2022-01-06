@@ -1,0 +1,25 @@
+[
+  {
+    "ApiId": "/providers/microsoft.powerapps/apis/shared_excel",
+    "CdpRevision": {
+      "BaseUrl": "/",
+      "LastChangedTimeString": "2021-12-16T17:34:02.2850000Z",
+      "RevisionNumber": 1
+    },
+    "ConnectedDataSourceInfoNameMapping": {
+      "__PowerAppsId__": "Row id",
+      "BudgetId": "BudgetId",
+      "BudgetTitle": "BudgetTitle",
+      "Category": "Category",
+      "Expense": "Expense",
+      "ExpenseName": "ExpenseName",
+      "Id": "Id"
+    },
+    "DatasetName": "b!FKD48SnMwkiQquwCvEhBuFbtK_1Yc6NOiNCn_VBrSz06Qq2xtlVsQ5IFVrJbPN80.01WWEI5KCLKD4M42POFBGYE6CGWJXSRYI3",
+    "EncodeDataset": true,
+    "IsSampleData": false,
+    "IsWritable": true,
+    "Name": "Expenses",
+    "Type": "ConnectedDataSourceInfo"
+  }
+]

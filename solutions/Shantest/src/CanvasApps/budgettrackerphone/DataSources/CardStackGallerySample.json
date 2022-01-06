@@ -1,0 +1,19 @@
+[
+  {
+    "Data": "[{\"IsSample\":true,\"SampleHeading\":\"Lorem ipsum 1\",\"SampleImage\":\"/ctrllib/gallery/data/imageGallery/SampleImage1.svg\",\"SamplePercentage\":0.81,\"SampleText\":\"Lorem ipsum dolor sit amet, consectetur adipiscing elit.\"}]",
+    "IsSampleData": true,
+    "IsWritable": false,
+    "Name": "CardStackGallerySample",
+    "OrderedColumnNames": [
+      "SampleImage",
+      "SampleHeading",
+      "SampleText",
+      "IsSample",
+      "SamplePercentage"
+    ],
+    "OriginalName": "CardStackGallerySample",
+    "OriginalSchema": "*[IsSample:b, SampleHeading:s, SampleImage:i, SamplePercentage:n, SampleText:s]",
+    "Schema": "*[IsSample:b, SampleHeading:s, SampleImage:i, SamplePercentage:n, SampleText:s]",
+    "Type": "StaticDataSourceInfo"
+  }
+]

@@ -134,3 +134,37 @@ Packing /workspaces/PowerPlatformIgnite2021/solutions/mytestsoln/obj/Debug/Metad
 2021-10-13 21:31:08.237 - Info	
 Unmanaged Pack complete.
 
+2021-10-29 18:12:36.757 - Info	
+Packing /workspaces/PowerPlatformIgnite2021/solutions/mytestsoln/obj/Debug/Metadata to bin/Debug/mytestsoln.zip
+
+2021-10-29 18:12:36.770 - Info	Processing Component: Entities
+2021-10-29 18:12:36.773 - Info	Processing Component: Roles
+2021-10-29 18:12:36.775 - Info	Processing Component: Workflows
+2021-10-29 18:12:36.779 - Info	 - SubmitUserData
+2021-10-29 18:12:36.781 - Info	Processing Component: FieldSecurityProfiles
+2021-10-29 18:12:36.781 - Info	Processing Component: Templates
+2021-10-29 18:12:36.782 - Info	Processing Component: EntityMaps
+2021-10-29 18:12:36.782 - Info	Processing Component: EntityRelationships
+2021-10-29 18:12:36.784 - Info	Processing Component: OrganizationSettings
+2021-10-29 18:12:36.784 - Info	Processing Component: optionsets
+2021-10-29 18:12:36.784 - Info	Processing Component: CustomControls
+2021-10-29 18:12:36.788 - Info	 - tstControl.mytestcontrol
+2021-10-29 18:12:36.789 - Info	Processing Component: AppModuleSiteMaps
+2021-10-29 18:12:36.791 - Info	Processing Component: AppModules
+2021-10-29 18:12:36.792 - Info	Processing Component: EntityDataProviders
+2021-10-29 18:12:36.792 - Info	Processing Component: CanvasApps
+2021-10-29 18:12:36.795 - Info	 - tst_accountapp_01cb1
+2021-10-29 18:12:36.797 - Info	 - tst_app_e8d09
+2021-10-29 18:12:36.797 - Info	 - tst_myestimatorapp_8a99c
+2021-10-29 18:12:36.797 - Info	Processing Component: Connectors
+2021-10-29 18:12:36.798 - Info	 - new_5Ftoyotalogisticssystem
+2021-10-29 18:12:36.798 - Info	 - tst_5Fcreateuserandjob
+2021-10-29 18:12:36.799 - Info	 - new_5Fconfapi5
+2021-10-29 18:12:36.809 - Warning	Following root components are not defined in customizations:
+  Type='Connector', Id (or schema name)='{60377e95-bf05-ec11-94ef-00224826a90b}'.
+  Type='Connector', Id (or schema name)='{16a51a64-7c48-434f-8165-e01dd88867ca}'.
+  Type='Connector', Id (or schema name)='{b8a74948-172c-412d-acfd-fc542d88462d}'.
+
+2021-10-29 18:12:36.848 - Info	
+Unmanaged Pack complete.
+

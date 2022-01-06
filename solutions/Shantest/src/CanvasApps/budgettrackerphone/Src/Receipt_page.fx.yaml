@@ -1,0 +1,210 @@
+Receipt_page As screen:
+    Height: =Max(App.Height, App.DesignHeight)
+    OnVisible: |-
+        =UpdateContext({resetnew:true});UpdateContext({resetnew:false})
+    Width: =Max(App.Width, App.DesignWidth)
+
+    Group2_3 As group:
+        Height: =90
+        Width: =90
+        X: =0
+        Y: =0
+        ZIndex: =2
+
+        Rectangle4_9 As rectangle:
+            BorderColor: =RGBA(0, 0, 255, 1)
+            DisabledFill: =Rectangle4_9.Fill
+            Fill: =RGBA(62,96,170,0)
+            Height: =90
+            HoverFill: =Rectangle4_9.Fill
+            OnSelect: =Navigate(Launch_Party,ScreenTransition.None)
+            PressedFill: =Rectangle4_9.Fill
+            Width: =90
+            ZIndex: =9
+
+        icon3_3 As icon.ChevronLeft:
+            BorderColor: =RGBA(0, 0, 0, 1)
+            Color: =RGBA(255, 255, 255, 1)
+            DisabledBorderColor: =RGBA(56, 56, 56, 1)
+            DisabledColor: =RGBA(193, 193, 193, 0.95)
+            DisabledFill: =icon3_3.Fill
+            Height: =34
+            HoverBorderColor: =ColorFade(icon3_3.BorderColor, 20%)
+            HoverColor: =ColorFade(icon3_3.Color, 20%)
+            HoverFill: =icon3_3.Fill
+            Icon: =Icon.ChevronLeft
+            OnSelect: =Navigate(Launch_Party,ScreenTransition.None)
+            PressedBorderColor: =ColorFade(icon3_3.BorderColor, -20%)
+            PressedColor: =ColorFade(icon3_3.Color, -20%)
+            PressedFill: =icon3_3.Fill
+            Width: =34
+            X: =28
+            Y: =28
+            ZIndex: =10
+
+    Rectangle1_8 As rectangle:
+        BorderColor: =RGBA(0, 0, 255, 1)
+        DisabledFill: =Rectangle1_8.Fill
+        Fill: =RGBA(6,162,216,1)
+        Height: =90
+        HoverFill: =Rectangle1_8.Fill
+        PressedFill: =Rectangle1_8.Fill
+        Width: =640
+        ZIndex: =4
+
+    TextBox2_7 As label:
+        Align: =Align.Center
+        BorderColor: =RGBA(0, 0, 0, 1)
+        Color: =RGBA(255,255,255,1)
+        DisabledColor: =ColorFade(RGBA(47, 41, 43, 1), 70%)
+        FontWeight: =Lighter
+        Height: =90
+        HoverBorderColor: =TextBox2_7.BorderColor
+        HoverColor: =TextBox2_7.Color
+        HoverFill: =TextBox2_7.Fill
+        PressedBorderColor: =TextBox2_7.BorderColor
+        PressedColor: =TextBox2_7.Color
+        PressedFill: =TextBox2_7.Fill
+        Size: =28
+        Text: ="Receipts"
+        Width: =460
+        X: =90
+        ZIndex: =6
+
+    Gallery6 As gallery.galleryVertical:
+        DisabledBorderColor: =Gallery6.BorderColor
+        DisabledFill: =Gallery6.Fill
+        Height: =1047.123595505618
+        HoverBorderColor: =Gallery6.BorderColor
+        HoverFill: =Gallery6.Fill
+        Items: |
+            =
+            Filter(Receipts,ExpenseId = Gallery2.Selected.Id)
+        Layout: =Layout.Vertical
+        PressedBorderColor: =Gallery6.BorderColor
+        PressedFill: =Gallery6.Fill
+        ShowScrollbar: =false
+        TemplatePadding: =0
+        TemplateSize: =104.64697609001436
+        Y: =88.87640449438203
+        ZIndex: =20
+
+        Group7 As group:
+            Height: =101.00000000000011
+            Width: =640
+            X: =0
+            Y: =0
+            ZIndex: =1
+
+            Rectangle3 As rectangle:
+                BorderColor: =RGBA(0, 0, 255, 1)
+                DisabledFill: =Rectangle3.Fill
+                Fill: =RGBA(0, 0, 0, 0)
+                Height: =53
+                HoverFill: =Rectangle3.Fill
+                OnSelect: |-
+                    =Navigate(View_receipt,ScreenTransition.None,{Receiptrecord:ThisItem})
+                PressedFill: =Rectangle3.Fill
+                Width: =640
+                ZIndex: =2
+
+            ChevronIcon As icon.ChevronRight:
+                BorderColor: =RGBA(0, 0, 0, 1)
+                Color: =RGBA(154,149,143,1)
+                DisabledBorderColor: =RGBA(56, 56, 56, 1)
+                DisabledColor: =RGBA(193, 193, 193, 0.95)
+                DisabledFill: =ChevronIcon.Fill
+                Height: =32
+                HoverBorderColor: =ColorFade(ChevronIcon.BorderColor, 20%)
+                HoverColor: =ColorFade(ChevronIcon.Color, 20%)
+                HoverFill: =ChevronIcon.Fill
+                Icon: =Icon.ChevronRight
+                OnSelect: |-
+                    =Navigate(View_receipt,ScreenTransition.None,{Receiptrecord:ThisItem})
+                PressedBorderColor: =ColorFade(ChevronIcon.BorderColor, -20%)
+                PressedColor: =ColorFade(ChevronIcon.Color, -20%)
+                PressedFill: =ChevronIcon.Fill
+                Width: =32
+                X: =586.0928961748634
+                Y: =36.323488045007
+                ZIndex: =4
+
+            ReceiptIcon As icon.ListScrollWatchlist:
+                BorderColor: =RGBA(0, 0, 0, 1)
+                Color: =RGBA(93,91,86,1)
+                DisabledBorderColor: =RGBA(56, 56, 56, 1)
+                DisabledColor: =RGBA(193, 193, 193, 0.95)
+                DisabledFill: =ReceiptIcon.Fill
+                Height: =32
+                HoverBorderColor: =ColorFade(ReceiptIcon.BorderColor, 20%)
+                HoverColor: =ColorFade(ReceiptIcon.Color, 20%)
+                HoverFill: =ReceiptIcon.Fill
+                Icon: =Icon.ListScrollWatchlist
+                OnSelect: |-
+                    =Navigate(View_receipt,ScreenTransition.None,{Receiptrecord:ThisItem})
+                PressedBorderColor: =ColorFade(ReceiptIcon.BorderColor, -20%)
+                PressedColor: =ColorFade(ReceiptIcon.Color, -20%)
+                PressedFill: =ReceiptIcon.Fill
+                Width: =32
+                X: =26.0759493670886
+                Y: =36.323488045007
+                ZIndex: =5
+
+            TextBox1_35 As label:
+                BorderColor: =RGBA(0, 0, 0, 1)
+                Color: =RGBA(93,91,86,1)
+                DisabledColor: =ColorFade(RGBA(47, 41, 43, 1), 70%)
+                FontWeight: =Semibold
+                Height: =100.30448504983388
+                HoverBorderColor: =TextBox1_35.BorderColor
+                HoverColor: =TextBox1_35.Color
+                HoverFill: =TextBox1_35.Fill
+                OnSelect: |-
+                    =Navigate(View_receipt,ScreenTransition.None,{Receiptrecord:ThisItem})
+                PaddingBottom: =0
+                PaddingLeft: =20
+                PaddingRight: =0
+                PaddingTop: =0
+                PressedBorderColor: =TextBox1_35.BorderColor
+                PressedColor: =TextBox1_35.Color
+                PressedFill: =TextBox1_35.Fill
+                Size: =22
+                Text: =ThisItem.ReceiptName
+                Width: =512.235483222825
+                Wrap: =false
+                X: =51.76451677717499
+                Y: =0.6955149501661132
+                ZIndex: =6
+
+        Rectangle7_5 As rectangle:
+            BorderColor: =RGBA(0, 0, 255, 1)
+            DisabledFill: =Rectangle7_5.Fill
+            Fill: =RGBA(238,238,238,1)
+            Height: =3
+            HoverFill: =Rectangle7_5.Fill
+            PressedFill: =Rectangle7_5.Fill
+            Width: =640
+            Y: =100.98452883263002
+            ZIndex: =3
+
+    TextBox5 As label:
+        Align: =Center
+        BorderColor: =RGBA(0, 0, 0, 1)
+        Color: =RGBA(93,91,86,1)
+        DisabledColor: =ColorFade(RGBA(47, 41, 43, 1), 70%)
+        Height: =70
+        HoverBorderColor: =TextBox5.BorderColor
+        HoverColor: =TextBox5.Color
+        HoverFill: =TextBox5.Fill
+        Italic: =true
+        PressedBorderColor: =TextBox5.BorderColor
+        PressedColor: =TextBox5.Color
+        PressedFill: =TextBox5.Fill
+        Size: =21
+        Text: ="No receipts"
+        Visible: =IsBlank(Gallery6.Selected.ChevronIcon)||IsBlank(Gallery6.Selected.ReceiptIcon)
+        Width: =582
+        X: =28
+        Y: =533
+        ZIndex: =21
+

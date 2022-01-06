@@ -1,0 +1,64 @@
+{
+  "6a2051d7-ce28-476b-99bd-b72361695617": {
+    "connectionInstanceId": "/providers/microsoft.powerapps/apis/shared_onedriveforbusiness/connections/9d095b9eae13494c98f3b337583c89c0",
+    "connectionParameters": {
+      "sku": "Enterprise"
+    },
+    "connectionRef": {
+      "displayName": "OneDrive for Business",
+      "iconUri": "https://connectoricons-prod.azureedge.net/releases/v1.0.1528/1.0.1528.2589/onedriveforbusiness/icon.png",
+      "id": "/providers/microsoft.powerapps/apis/shared_onedriveforbusiness"
+    },
+    "datasets": {},
+    "dataSources": [],
+    "dependencies": {},
+    "dependents": [
+      "e252fb8f-63f4-47b8-ae27-9a4d8a87e823"
+    ],
+    "id": "6a2051d7-ce28-476b-99bd-b72361695617"
+  },
+  "e252fb8f-63f4-47b8-ae27-9a4d8a87e823": {
+    "connectionInstanceId": "/providers/microsoft.powerapps/apis/shared_excel/connections/2a1bd953a086473fbe47ec74616cb8a6",
+    "connectionParameters": {
+      "sku": "Enterprise"
+    },
+    "connectionRef": {
+      "displayName": "Excel",
+      "iconUri": "https://connectoricons-prod.azureedge.net/releases/v1.0.1542/1.0.1542.2635/excel/icon.png",
+      "id": "/providers/microsoft.powerapps/apis/shared_excel"
+    },
+    "datasets": {
+      "b!FKD48SnMwkiQquwCvEhBuFbtK_1Yc6NOiNCn_VBrSz06Qq2xtlVsQ5IFVrJbPN80.01WWEI5KCLKD4M42POFBGYE6CGWJXSRYI3": {
+        "dataSources": {
+          "Budgets": {
+            "tableName": "Budgets"
+          },
+          "Categories": {
+            "tableName": "Categories"
+          },
+          "ExpenseByCategory": {
+            "tableName": "ExpenseByCategory"
+          },
+          "Expenses": {
+            "tableName": "Expenses"
+          },
+          "Receipts": {
+            "tableName": "Receipts"
+          }
+        }
+      }
+    },
+    "dataSources": [
+      "Budgets",
+      "Expenses",
+      "Categories",
+      "Receipts",
+      "ExpenseByCategory"
+    ],
+    "dependencies": {
+      "fileSource": "6a2051d7-ce28-476b-99bd-b72361695617"
+    },
+    "dependents": [],
+    "id": "e252fb8f-63f4-47b8-ae27-9a4d8a87e823"
+  }
+}

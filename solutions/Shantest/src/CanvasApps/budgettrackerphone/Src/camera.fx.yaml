@@ -1,0 +1,102 @@
+camera As screen:
+    Height: =Max(App.Height, App.DesignHeight)
+    Width: =Max(App.Width, App.DesignWidth)
+
+    Rectangle1_5 As rectangle:
+        BorderColor: =RGBA(0, 0, 255, 1)
+        DisabledFill: =Rectangle1_5.Fill
+        Fill: =RGBA(6,162,216,1)
+        Height: =90
+        HoverFill: =Rectangle1_5.Fill
+        PressedFill: =Rectangle1_5.Fill
+        Width: =640
+        ZIndex: =1
+
+    TextBox2_4 As label:
+        Align: =Align.Center
+        BorderColor: =RGBA(0, 0, 0, 1)
+        Color: =RGBA(255,255,255,1)
+        DisabledColor: =ColorFade(RGBA(47, 41, 43, 1), 70%)
+        FontWeight: =Lighter
+        Height: =90
+        HoverBorderColor: =TextBox2_4.BorderColor
+        HoverColor: =TextBox2_4.Color
+        HoverFill: =TextBox2_4.Fill
+        PressedBorderColor: =TextBox2_4.BorderColor
+        PressedColor: =TextBox2_4.Color
+        PressedFill: =TextBox2_4.Fill
+        Size: =28
+        Text: ="Add a receipt"
+        Width: =460
+        X: =90
+        ZIndex: =3
+
+    Group3 As group:
+        Height: =90
+        Width: =90
+        X: =0
+        Y: =0
+        ZIndex: =11
+
+        Rectangle4_6 As rectangle:
+            BorderColor: =RGBA(0, 0, 255, 1)
+            DisabledFill: =Rectangle4_6.Fill
+            Fill: =RGBA(62,96,170,0)
+            Height: =90
+            HoverFill: =Rectangle4_6.Fill
+            OnSelect: =Navigate(New_expense,ScreenTransition.None)
+            PressedFill: =Rectangle4_6.Fill
+            Width: =90
+            ZIndex: =12
+
+        icon6 As icon.Cancel:
+            BorderColor: =RGBA(0, 0, 0, 1)
+            Color: =RGBA(255, 255, 255, 1)
+            DisabledBorderColor: =RGBA(56, 56, 56, 1)
+            DisabledColor: =RGBA(193, 193, 193, 0.95)
+            DisabledFill: =icon6.Fill
+            Height: =40
+            HoverBorderColor: =ColorFade(icon6.BorderColor, 20%)
+            HoverColor: =ColorFade(icon6.Color, 20%)
+            HoverFill: =icon6.Fill
+            Icon: =Icon.Cancel
+            OnSelect: =Navigate(New_expense,ScreenTransition.None)
+            PressedBorderColor: =ColorFade(icon6.BorderColor, -20%)
+            PressedColor: =ColorFade(icon6.Color, -20%)
+            PressedFill: =icon6.Fill
+            Width: =40
+            X: =25
+            Y: =25
+            ZIndex: =13
+
+    Camera1 As camera:
+        Camera: =0
+        Height: =966
+        OnSelect: =Navigate(Add_receipt,ScreenTransition.None)
+        Width: =640
+        Y: =90
+        ZIndex: =14
+
+    TextBox1_28 As label:
+        Align: =Center
+        BorderColor: =RGBA(0, 0, 0, 1)
+        Color: =RGBA(93,91,86,1)
+        DisabledColor: =ColorFade(RGBA(47, 41, 43, 1), 70%)
+        FontWeight: =Normal
+        Height: =80
+        HoverBorderColor: =TextBox1_28.BorderColor
+        HoverColor: =TextBox1_28.Color
+        HoverFill: =TextBox1_28.Fill
+        PaddingBottom: =0
+        PaddingLeft: =0
+        PaddingRight: =0
+        PaddingTop: =0
+        PressedBorderColor: =TextBox1_28.BorderColor
+        PressedColor: =TextBox1_28.Color
+        PressedFill: =TextBox1_28.Fill
+        Size: =18
+        Text: ="Tap anywhere above to take a photo"
+        Width: =640
+        Y: =1056
+        ZIndex: =15
+

@@ -5,6 +5,6 @@
   </PropertyGroup>
   <ImportGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
     <Import Project="$(NuGetPackageRoot)/microsoft.netframework.referenceassemblies.net462/1.0.0/build/Microsoft.NETFramework.ReferenceAssemblies.net462.targets" Condition="Exists('$(NuGetPackageRoot)/microsoft.netframework.referenceassemblies.net462/1.0.0/build/Microsoft.NETFramework.ReferenceAssemblies.net462.targets')" />
-    <Import Project="$(NuGetPackageRoot)/microsoft.powerapps.msbuild.solution/1.9.8/build/Microsoft.PowerApps.MSBuild.Solution.targets" Condition="Exists('$(NuGetPackageRoot)/microsoft.powerapps.msbuild.solution/1.9.8/build/Microsoft.PowerApps.MSBuild.Solution.targets')" />
+    <Import Project="$(NuGetPackageRoot)/microsoft.powerapps.msbuild.solution/1.9.9/build/Microsoft.PowerApps.MSBuild.Solution.targets" Condition="Exists('$(NuGetPackageRoot)/microsoft.powerapps.msbuild.solution/1.9.9/build/Microsoft.PowerApps.MSBuild.Solution.targets')" />
   </ImportGroup>
 </Project>

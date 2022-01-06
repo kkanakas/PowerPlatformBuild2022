@@ -1,0 +1,93 @@
+DeleteBudgetScreen As screen:
+    Fill: =RGBA(255,255,255,1)
+    Height: =Max(App.Height, App.DesignHeight)
+    LoadingSpinnerColor: =RGBA(0, 51, 102, 1)
+    Width: =Max(App.Width, App.DesignWidth)
+
+    Rectangle13_1 As rectangle:
+        BorderColor: =RGBA(0, 0, 255, 1)
+        DisabledFill: =Rectangle13_1.Fill
+        Fill: =RGBA(0,94,130,1)
+        Height: =1136
+        HoverFill: =Rectangle13_1.Fill
+        PressedFill: =Rectangle13_1.Fill
+        Width: =640
+        ZIndex: =1
+
+    TextBox7_1 As label:
+        Align: =Center
+        BorderColor: =RGBA(0, 0, 0, 1)
+        Color: =RGBA(255, 255, 255, 1)
+        DisabledColor: =ColorFade(RGBA(47, 41, 43, 1), 70%)
+        Height: =134
+        HoverBorderColor: =TextBox7_1.BorderColor
+        HoverColor: =TextBox7_1.Color
+        HoverFill: =TextBox7_1.Fill
+        PressedBorderColor: =TextBox7_1.BorderColor
+        PressedColor: =TextBox7_1.Color
+        PressedFill: =TextBox7_1.Fill
+        Size: =24
+        Text: ="Are you sure you want to delete this budget?"
+        Width: =560
+        X: =40
+        Y: =353.85714285714215
+        ZIndex: =3
+
+    Button1_7 As button:
+        AutoDisableOnSelect: =false
+        BorderColor: =ColorFade(Button1_7.Fill, -15%)
+        BorderThickness: =0
+        Color: =RGBA(255,255,255,1)
+        DisabledBorderColor: =ColorFade(Button1_7.BorderColor, 70%)
+        DisabledColor: =ColorFade(RGBA(47, 41, 43, 1), 70%)
+        DisabledFill: =ColorFade(RGBA(159, 167, 165, 1), 50%)
+        Fill: =RGBA(6,162,216,.5)
+        FontWeight: =Normal
+        Height: =80
+        HoverBorderColor: =ColorFade(Button1_7.BorderColor, 20%)
+        HoverColor: =Button1_7.Color
+        HoverFill: =Button1_7.Fill
+        OnSelect: =Back()
+        PressedBorderColor: =Button1_7.Fill
+        PressedColor: =Button1_7.Color
+        PressedFill: =Button1_7.Fill
+        RadiusBottomLeft: =0
+        RadiusBottomRight: =0
+        RadiusTopLeft: =0
+        RadiusTopRight: =0
+        Size: =28
+        Text: ="No"
+        Width: =580
+        X: =30
+        Y: =636.4285714285719
+        ZIndex: =4
+
+    Button1_8 As button:
+        AutoDisableOnSelect: =false
+        BorderColor: =ColorFade(Button1_8.Fill, -15%)
+        BorderThickness: =0
+        Color: =RGBA(255,255,255,1)
+        DisabledBorderColor: =ColorFade(Button1_8.BorderColor, 70%)
+        DisabledColor: =ColorFade(RGBA(47, 41, 43, 1), 70%)
+        DisabledFill: =ColorFade(RGBA(159, 167, 165, 1), 50%)
+        Fill: =RGBA(6,162,216,1)
+        FontWeight: =Normal
+        Height: =80
+        HoverBorderColor: =ColorFade(Button1_8.BorderColor, 20%)
+        HoverColor: =Button1_8.Color
+        HoverFill: =Button1_8.Fill
+        OnSelect: =RemoveIf(Receipts,BudgetId=Gallery1.Selected.BudgetId);RemoveIf(ExpenseByCategory,BudgetId=Gallery1.Selected.BudgetId);RemoveIf(Expenses,BudgetId=Gallery1.Selected.BudgetId);RemoveIf(Budgets,BudgetId=Gallery1.Selected.BudgetId);Navigate(landing,ScreenTransition.None)
+        PressedBorderColor: =Button1_8.Fill
+        PressedColor: =Button1_8.Color
+        PressedFill: =Button1_8.Fill
+        RadiusBottomLeft: =0
+        RadiusBottomRight: =0
+        RadiusTopLeft: =0
+        RadiusTopRight: =0
+        Size: =28
+        Text: ="Yes"
+        Width: =580
+        X: =30
+        Y: =526.1428571428577
+        ZIndex: =5
+
