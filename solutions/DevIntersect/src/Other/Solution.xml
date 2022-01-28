@@ -1,12 +1,12 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<ImportExportXml version="9.2.21113.137" SolutionPackageVersion="9.2" languagecode="1033" generatedBy="CrmLive" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<ImportExportXml version="9.2.21121.125" SolutionPackageVersion="9.2" languagecode="1033" generatedBy="CrmLive" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <SolutionManifest>
     <UniqueName>DevIntersect</UniqueName>
     <LocalizedNames>
       <LocalizedName description="DevIntersect" languagecode="1033" />
     </LocalizedNames>
     <Descriptions />
-    <Version>1.0.0.4</Version>
+    <Version>1.0.0.5</Version>
     <Managed>2</Managed>
     <Publisher>
       <UniqueName>DevIntersect</UniqueName>
@@ -78,6 +78,7 @@
       </Addresses>
     </Publisher>
     <RootComponents>
+      <RootComponent type="29" id="{33f28388-e078-ec11-8d21-0022480a11ce}" behavior="0" />
       <RootComponent type="300" schemaName="dev_pictureoftheday_fc8e8" behavior="0" />
       <RootComponent type="300" schemaName="dev_testing123_f1a6e" behavior="0" />
     </RootComponents>
