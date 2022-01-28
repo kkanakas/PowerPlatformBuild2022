@@ -34,8 +34,8 @@ on:
 
 env:
 #edit your values here
-  BUILD_ENVIRONMENT_URL: 'https://org382d3acf.crm.dynamics.com/'
-  PRODUCTION_ENVIRONMENT_URL: 'https://orgc6432c71.crm.dynamics.com/'
+  BUILD_ENVIRONMENT_URL: 'https://kartiksenv.crm.dynamics.com/'
+  PRODUCTION_ENVIRONMENT_URL: 'https://kartiksenvqa.crm.dynamics.com'
   CLIENT_ID: '4c22de6e-cd5f-4c2e-9a82-d5a9b1d44d34'
   TENANT_ID: 'ec6b17bb-11d0-4195-abd0-521c69a5d1fd'
 
