@@ -64,7 +64,7 @@ jobs:
         environment-url: ${{env.ENVIRONMENT_URL}}
         app-id: ${{env.CLIENT_ID}}
         client-secret: ${{ secrets.PowerPlatformSPN }}
-        tenant-id: ${{env.TENANT_ID}
+        tenant-id: ${{env.TENANT_ID}}
     
     - name: Import solution as unmanaged to build env
       uses: microsoft/powerplatform-actions/import-solution@0.5.1
