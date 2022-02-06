@@ -40,6 +40,7 @@ env:
   TENANT_ID: 'ec6b17bb-11d0-4195-abd0-521c69a5d1fd'
 
 jobs:
+
   convert-to-managed:
     #runs-on: ubuntu-latest
     runs-on: windows-latest
@@ -51,6 +52,12 @@ jobs:
     - uses: actions/checkout@v2
       with:
         lfs: true
+
+    - name: Try forcing LFS checkout of actions
+      run: |
+        pwd
+        cd ..\_actions\microsoft\powerplatform-actions\0.5.1\
+        git lfs checkout
 
     #- name: Setup .NET
     #  uses: actions/setup-dotnet@v1
