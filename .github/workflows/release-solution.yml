@@ -53,9 +53,7 @@ jobs:
       run: |
         remove-item -LiteralPath "D:\a\_actions\microsoft\powerplatform-actions\0.5.1\" -Force -Recurse
         cd ..\..\_actions\microsoft\powerplatform-actions\
-        git clone --depth 1 --branch 0.5.1 https://github.com/microsoft/powerplatform-actions 0.5.1
-        cd .\0.5.1
-        git lfs checkout
+        git clone --depth 1 --branch tehcrash-tryRemoveLfs https://github.com/microsoft/powerplatform-actions 0.5.1
 
     - uses: actions/checkout@v2
       with:
@@ -120,9 +118,7 @@ jobs:
       run: |
         remove-item -LiteralPath "D:\a\_actions\microsoft\powerplatform-actions\0.5.1\" -Force -Recurse
         cd ..\..\_actions\microsoft\powerplatform-actions\
-        git clone --depth 1 --branch 0.5.1 https://github.com/microsoft/powerplatform-actions 0.5.1
-        cd .\0.5.1
-        git lfs checkout
+        git clone --depth 1 --branch tehcrash-tryRemoveLfs https://github.com/microsoft/powerplatform-actions 0.5.1
 
     - uses: actions/checkout@v2
       with:
