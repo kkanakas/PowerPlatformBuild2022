@@ -54,10 +54,16 @@ jobs:
         lfs: true
 
     - name: Try forcing LFS checkout of actions
+      # run: |
+      #   pwd
+      #   cd ..\..\_actions\microsoft\powerplatform-actions\0.5.1\
+      #   pwd
+      #   git lfs checkout
       run: |
         pwd
-        cd ..\..\_actions\microsoft\powerplatform-actions\0.5.1\
-        pwd
+        cd ..\..\_actions\microsoft\powerplatform-actions\
+        del .\0.5.1
+        git clone git clone --depth 1 --branch 0.5.1 https://github.com/microsoft/powerplatform-actions 0.5.1
         git lfs checkout
 
     #- name: Setup .NET
