@@ -55,7 +55,7 @@ jobs:
     - name: Setup .NET
       uses: actions/setup-dotnet@v1
       with:
-        dotnet-version: 5.0.x
+        dotnet-version: 4.8.x
 
     #- name: Pack solution
      # uses: microsoft/powerplatform-actions@0.5.1
