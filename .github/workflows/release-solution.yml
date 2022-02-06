@@ -56,7 +56,7 @@ jobs:
     - name: Try forcing LFS checkout of actions
       run: |
         pwd
-        cd ..\_actions\microsoft\powerplatform-actions\0.5.1\
+        cd ..\..\_actions\microsoft\powerplatform-actions\0.5.1\
         git lfs checkout
 
     #- name: Setup .NET
