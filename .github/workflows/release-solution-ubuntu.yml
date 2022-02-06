@@ -48,26 +48,34 @@ jobs:
       RUNNER_DEBUG: 1
 
     steps:
+    - name: Replace actions with fresh pull and LFS checkout
+      run: |
+        rm -rf "/home/runner/work/_actions/microsoft/powerplatform-actions/0.5.1"
+        cd "/home/runner/work/_actions/microsoft/powerplatform-actions/"
+        git clone --depth 1 --branch 0.5.1 https://github.com/microsoft/powerplatform-actions 0.5.1
+        cd ./0.5.1
+        git lfs checkout
+
     - uses: actions/checkout@v2
       with:
         lfs: true
 
     #- name: Pack solution
-     # uses: microsoft/powerplatform-actions@0.4.1
+     # uses: microsoft/powerplatform-actions@0.5.1
       #with:
        # solution-folder: ${{ github.event.inputs.solution_source_folder}}/${{ github.event.inputs.solution_name }}
         #solution-file: ${{ github.event.inputs.solution_outbound_folder}}/${{ github.event.inputs.solution_name }}.zip
         #solution-type: Unmanaged
     - name: who-am-i action
-      uses: microsoft/powerplatform-actions/who-am-i@0.4.1
+      uses: microsoft/powerplatform-actions/who-am-i@0.5.1
       with:
-        environment-url: ${{env.ENVIRONMENT_URL}}
+        environment-url: ${{env.BUILD_ENVIRONMENT_URL}}
         app-id: ${{env.CLIENT_ID}}
         client-secret: ${{ secrets.PowerPlatformSPN }}
         tenant-id: ${{env.TENANT_ID}}
     
     - name: Import solution as unmanaged to build env
-      uses: microsoft/powerplatform-actions/import-solution@0.4.1
+      uses: microsoft/powerplatform-actions/import-solution@0.5.1
       with:
         environment-url: ${{env.BUILD_ENVIRONMENT_URL}}
         app-id: ${{env.CLIENT_ID}}
@@ -102,6 +110,14 @@ jobs:
       RUNNER_DEBUG: 1
 
     steps:
+    - name: Replace actions with fresh pull and LFS checkout
+      run: |
+        rm -rf "/home/runner/work/_actions/microsoft/powerplatform-actions/0.5.1"
+        cd "/home/runner/work/_actions/microsoft/powerplatform-actions/"
+        git clone --depth 1 --branch 0.5.1 https://github.com/microsoft/powerplatform-actions 0.5.1
+        cd ./0.5.1
+        git lfs checkout
+
     - uses: actions/checkout@v2
       with:
         lfs: true
