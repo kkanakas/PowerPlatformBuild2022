@@ -53,6 +53,9 @@ jobs:
       with:
         lfs: true
 
+    - name: remove current copy of actions
+      run: remove-item -LiteralPath "D:\a\_actions\microsoft\powerplatform-actions\0.5.1\" -Force -Recurse
+
     - name: Try forcing LFS checkout of actions
       # run: |
       #   pwd
@@ -63,7 +66,6 @@ jobs:
         pwd
         cd ..\..\_actions\microsoft\powerplatform-actions\
         pwd
-        del .\0.5.1
         git clone git clone --depth 1 --branch 0.5.1 https://github.com/microsoft/powerplatform-actions 0.5.1
         git lfs checkout
 
