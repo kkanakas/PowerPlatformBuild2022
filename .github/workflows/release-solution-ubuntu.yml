@@ -53,13 +53,13 @@ jobs:
         lfs: true
 
     #- name: Pack solution
-     # uses: microsoft/powerplatform-actions@0.5.1
+     # uses: microsoft/powerplatform-actions@0.4.1
       #with:
        # solution-folder: ${{ github.event.inputs.solution_source_folder}}/${{ github.event.inputs.solution_name }}
         #solution-file: ${{ github.event.inputs.solution_outbound_folder}}/${{ github.event.inputs.solution_name }}.zip
         #solution-type: Unmanaged
     - name: who-am-i action
-      uses: microsoft/powerplatform-actions/who-am-i@0.5.1
+      uses: microsoft/powerplatform-actions/who-am-i@0.4.1
       with:
         environment-url: ${{env.BUILD_ENVIRONMENT_URL}}
         app-id: ${{env.CLIENT_ID}}
@@ -67,7 +67,7 @@ jobs:
         tenant-id: ${{env.TENANT_ID}}
     
     - name: Import solution as unmanaged to build env
-      uses: microsoft/powerplatform-actions/import-solution@0.5.1
+      uses: microsoft/powerplatform-actions/import-solution@0.4.1
       with:
         environment-url: ${{env.BUILD_ENVIRONMENT_URL}}
         app-id: ${{env.CLIENT_ID}}
@@ -79,7 +79,7 @@ jobs:
         publish-changes: true
 
     - name: Export solution as managed
-      uses: microsoft/powerplatform-actions/export-solution@0.5.1
+      uses: microsoft/powerplatform-actions/export-solution@0.4.1
       with:
         environment-url: ${{env.BUILD_ENVIRONMENT_URL}}
         app-id: ${{env.CLIENT_ID}}
@@ -112,7 +112,7 @@ jobs:
         name: managedSolutions
         path: ${{ github.event.inputs.solution_release_folder}}
     - name: Import solution to prod env
-      uses: microsoft/powerplatform-actions/import-solution@0.5.1
+      uses: microsoft/powerplatform-actions/import-solution@0.4.1
       with:
         environment-url: ${{env.PRODUCTION_ENVIRONMENT_URL}}
         app-id: ${{env.CLIENT_ID}}
