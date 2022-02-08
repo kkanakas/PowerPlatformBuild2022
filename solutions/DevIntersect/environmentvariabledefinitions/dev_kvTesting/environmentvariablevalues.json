@@ -1,0 +1,9 @@
+{
+  "environmentvariablevalues": {
+    "environmentvariablevalue": {
+      "@environmentvariablevalueid": "1f32de0b-e078-ec11-8d21-0022480a161e",
+      "iscustomizable": "1",
+      "value": "/subscriptions/33b9c866-1c83-45c2-8db5-fedc487b9df7/resourceGroups/pgmapiapp/providers/Microsoft.KeyVault/vaults/myCDStest/secrets/mySecret"
+    }
+  }
+}
