@@ -30,29 +30,6 @@ on:
        default: out/release
   release:
     types: [created]
-    inputs:
-      # Change this value
-      solution_name:
-        description: 'name of the solution to worked on from Power Platform'
-        required: true
-        default: DevIntersect
-       #Do Not change these values
-      solution_shipping_folder:
-        description: 'folder name for staging the exported solution *do not change*'
-        required: true
-        default: out/ship/
-      solution_outbound_folder:
-        description: 'staging the unpacked solution folder before check-in *do not change*'
-        required: true
-        default: solutions/DevIntersect/bin/Debug
-      solution_source_folder: 
-       description: 'folder name to be created and checked in *do not change*'
-       required: true
-       default: solutions/
-      solution_release_folder:
-       description: 'folder where the released binaries are going to be hosted *do not change*'
-       required: true
-       default: out/release
   
 
 env:
@@ -64,8 +41,8 @@ env:
 
 jobs:
   convert-to-managed:
-    #runs-on: ubuntu-latest
-    runs-on: windows-latest
+    runs-on: ubuntu-latest
+    #runs-on: windows-latest
     # or you can say runs-on: ubuntu-latest
     env:
       RUNNER_DEBUG: 1
@@ -74,11 +51,6 @@ jobs:
     - uses: actions/checkout@v2
       with:
         lfs: true
-
-    #- name: Setup .NET
-    #  uses: actions/setup-dotnet@v1
-    #  with:
-    #    dotnet-version: 5.0.x
 
     #- name: Pack solution
      # uses: microsoft/powerplatform-actions@0.5.2
