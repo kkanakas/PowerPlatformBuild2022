@@ -1,0 +1,13 @@
+<environmentvariabledefinition schemaname="snw_InstanceName">
+  <description default="Instance where the app is running">
+    <label description="Instance where the app is running" languagecode="1033" />
+  </description>
+  <displayname default="InstanceName">
+    <label description="InstanceName" languagecode="1033" />
+  </displayname>
+  <introducedversion>1.0.0.0</introducedversion>
+  <iscustomizable>1</iscustomizable>
+  <isrequired>0</isrequired>
+  <secretstore>0</secretstore>
+  <type>100000000</type>
+</environmentvariabledefinition>

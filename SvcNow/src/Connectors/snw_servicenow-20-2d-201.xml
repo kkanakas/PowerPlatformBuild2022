@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Connector xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <connectorid>518661dd-b4de-448b-a389-ff4f8700db8b</connectorid>
+  <description>A sample connector for ServiceNow with basic CRUD for Incidents, OAuth and attachment support</description>
+  <displayname>ServiceNow - 1</displayname>
+  <iconbrandcolor>#007ee5</iconbrandcolor>
+  <name>snw_servicenow-20-2d-201</name>
+  <connectortype>1</connectortype>
+  <openapidefinition>/Connector/snw_servicenow-20-2d-201_openapidefinition.json</openapidefinition>
+  <connectionparameters>/Connector/snw_servicenow-20-2d-201_connectionparameters.json</connectionparameters>
+  <policytemplateinstances>/Connector/snw_servicenow-20-2d-201_policytemplateinstances.json</policytemplateinstances>
+  <iconblob>/Connector/snw_servicenow-20-2d-201_iconblob.Png</iconblob>
+</Connector>
