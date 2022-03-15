@@ -28,8 +28,8 @@ on:
        description: 'folder where the released binaries are going to be hosted *do not change*'
        required: true
        default: out/release
-  release:
-    types: [created]
+  #release:
+   # types: [created]
   
 
 env:
