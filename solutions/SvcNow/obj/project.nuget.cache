@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "yXnyqM3kRiVLJOJt0LKkGNmiR0jG6Or8dNrYCUq5za2BQmh2sUqHimK81ezAs95fv3wNbr3m+J5B+LuMO0Q30w==",
+  "success": true,
+  "projectFilePath": "/workspaces/PowerPlatformIgnite2021/SvcNow/SvcNow.cdsproj",
+  "expectedPackageFiles": [
+    "/var/nuget/microsoft.netframework.referenceassemblies/1.0.0/microsoft.netframework.referenceassemblies.1.0.0.nupkg.sha512",
+    "/var/nuget/microsoft.netframework.referenceassemblies.net462/1.0.0/microsoft.netframework.referenceassemblies.net462.1.0.0.nupkg.sha512",
+    "/var/nuget/microsoft.powerapps.msbuild.solution/1.12.2/microsoft.powerapps.msbuild.solution.1.12.2.nupkg.sha512"
+  ],
+  "logs": []
+}

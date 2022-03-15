@@ -1,0 +1,22 @@
+2022-03-14 22:45:57.361 - Info	
+Packing /workspaces/PowerPlatformIgnite2021/SvcNow/obj/Debug/Metadata to bin/Debug/SvcNow.zip
+
+2022-03-14 22:45:57.371 - Info	Processing Component: Entities
+2022-03-14 22:45:57.374 - Info	Processing Component: Roles
+2022-03-14 22:45:57.380 - Info	Processing Component: Workflows
+2022-03-14 22:45:57.380 - Info	Processing Component: FieldSecurityProfiles
+2022-03-14 22:45:57.381 - Info	Processing Component: Templates
+2022-03-14 22:45:57.381 - Info	Processing Component: EntityMaps
+2022-03-14 22:45:57.382 - Info	Processing Component: EntityRelationships
+2022-03-14 22:45:57.384 - Info	Processing Component: OrganizationSettings
+2022-03-14 22:45:57.384 - Info	Processing Component: optionsets
+2022-03-14 22:45:57.384 - Info	Processing Component: CustomControls
+2022-03-14 22:45:57.387 - Info	Processing Component: EntityDataProviders
+2022-03-14 22:45:57.387 - Info	Processing Component: Connectors
+2022-03-14 22:45:57.391 - Info	 - snw_servicenow-20-2d-201
+2022-03-14 22:45:57.410 - Warning	Following root components are not defined in customizations:
+  Type='Connector', Id (or schema name)='{518661dd-b4de-448b-a389-ff4f8700db8b}'.
+
+2022-03-14 22:45:57.432 - Info	
+Unmanaged Pack complete.
+

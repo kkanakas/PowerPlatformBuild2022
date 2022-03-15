@@ -1,0 +1,1 @@
+/workspaces/PowerPlatformIgnite2021/SvcNow/obj/Debug/SvcNow.cdsproj.CoreCompileInputs.cache
