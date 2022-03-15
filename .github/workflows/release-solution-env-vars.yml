@@ -76,7 +76,7 @@ jobs:
         app-id: ${{env.CLIENT_ID}}
         client-secret: ${{ secrets.PowerPlatformSPN }}
         tenant-id: ${{env.TENANT_ID}}
-        solution-name: ${{ github.event.inputs.solution_name }}
+        solution-name: ${{ env.solution_name }}
         managed: true
         solution-output-file: ${{ env.solution_shipping_folder}}/${{ env.solution_name }}.zip
 
