@@ -1,13 +1,13 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<ImportExportXml version="9.2.21122.157" SolutionPackageVersion="9.2" languagecode="1033" generatedBy="CrmLive" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<ImportExportXml version="9.2.22072.186" SolutionPackageVersion="9.2" languagecode="1033" generatedBy="CrmLive" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <SolutionManifest>
     <UniqueName>DevIntersect</UniqueName>
     <LocalizedNames>
       <LocalizedName description="DevIntersect" languagecode="1033" />
     </LocalizedNames>
     <Descriptions />
-    <Version>1.0.0.5</Version>
-    <Managed>2</Managed>
+    <Version>1.0.0.7</Version>
+    <Managed>0</Managed>
     <Publisher>
       <UniqueName>DevIntersect</UniqueName>
       <LocalizedNames>
